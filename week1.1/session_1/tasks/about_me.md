@@ -1,3 +1,6 @@
 # About Me
+## I am Fatma from Oman
 
-Using the resources linked in examples, have a go at making a quick about you page using Markdown.
+I like to paint/draw, play the guitar and piano, sing, read, and i also enjoy photography!
+
+I was in the IFY programme last year, we learned some basics of Python and SQL as well as a bit of Assembly language. I am looking forward to this year!
