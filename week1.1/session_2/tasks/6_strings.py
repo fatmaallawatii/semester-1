@@ -3,22 +3,22 @@
 
 user_string = input("Enter a string: ")
 
-print(f"\nOriginal String: {user_string}")
-print(f"Modified String 1: {user_string.lower()}")
-print(f"Modified String 2: {user_string.upper()}")
-print(f"Modified String 3: {user_string.strip()}")
-print(f"Modified String 4: {user_string.replace('a', '@')}")
-print(f"Modified String 5: {user_string.capitalize()}")
-print(f"Modified String 6: {user_string[::-1]}")
-print(f"Modified String 7: {user_string.title()}")
-print(f"Modified String 8: {len(user_string)}")
-print(f"Modified String 9: {user_string.find('a')}")
-print(f"Modified String 10: {user_string.count('a')}")
-print(f"Modified String 11: {user_string.startswith('Hello')}")
-print(f"Modified String 12: {user_string.endswith('!')}")
-print(f"Modified String 13: {user_string.isalnum()}")
-print(f"Modified String 14: {user_string.isalpha()}")
-print(f"Modified String 15: {user_string.isdigit()}")
+print(f"\nOriginal String: {user_string}") # enters it normally
+print(f"Modified String 1: {user_string.lower()}") # lowercase word
+print(f"Modified String 2: {user_string.upper()}") # uppercase word
+print(f"Modified String 3: {user_string.strip()}") # idk
+print(f"Modified String 4: {user_string.replace('a', '@')}") # idk
+print(f"Modified String 5: {user_string.capitalize()}") # uppercase first letter
+print(f"Modified String 6: {user_string[::-1]}") # moves the letters back by -1
+print(f"Modified String 7: {user_string.title()}") # idk
+print(f"Modified String 8: {len(user_string)}") # number of lettes in the word
+print(f"Modified String 9: {user_string.find('a')}") # idk
+print(f"Modified String 10: {user_string.count('a')}") # counts how many a's there are
+print(f"Modified String 11: {user_string.startswith('Hello')}") # checks if it starts with Hello 
+print(f"Modified String 12: {user_string.endswith('!')}") # checks if it ends with !
+print(f"Modified String 13: {user_string.isalnum()}") # idk
+print(f"Modified String 14: {user_string.isalpha()}") # idk
+print(f"Modified String 15: {user_string.isdigit()}") # idk
 
 
 
