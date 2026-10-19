@@ -15,6 +15,10 @@ def mystery_func(string):
     lower = 0
 
     for ch in string:
+        """
+        this checks the number of characters in the provided texts then checks for lowercase or uppercase letters.
+        it prints the umber o each as output
+        """
         if ch.isupper():
             upper += 1
         if ch.islower():
