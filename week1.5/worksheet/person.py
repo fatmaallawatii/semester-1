@@ -7,6 +7,11 @@ class Person:
     A Person, with a name and a date of birth.
     """
     def __init__(self, name, birth):
+        """
+        Initialise a person with a name and date of birth
+
+        Raises TypeError for invalid types and ValueError for an empty name
+        """
         
         if type(name) is not str:
             raise TypeError()
