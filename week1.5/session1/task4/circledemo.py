@@ -12,4 +12,4 @@ circle = Circle(centre, 4)
 #  - Displays the area of the circle
 print("Area of circle:", circle.area())
 #  - Displays the perimeter of the circle
-print("Perimeter of circle:", circle.parimeter())
+print("Perimeter of circle:", circle.perimeter())

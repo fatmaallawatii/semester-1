@@ -57,12 +57,12 @@ class Circle:
 #  - A method area(), returning the area of the circle
     def area(self):
         """calculate the area of the circle"""
-        return 3.14159 * self.radius ** 2
+        return math.pi * self.radius ** 2
 
 
 #  - A method perimeter(), returning the perimeter of the circle
-    def parimeter(self):
-        """calculate the parimeter of the circle."""
-        return 2 * 3.14159 * self.radius
+    def perimeter(self):
+        """calculate the perimeter of the circle."""
+        return 2 * math.pi * self.radius
 
 # Don't add any testing code to this file!
