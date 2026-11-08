@@ -14,3 +14,9 @@ while True:
 # 1. Add a break statement to exit the loop if k>200
 
 # 2. Rewrite the code to directly use the while loop instead of break.
+
+k = 2
+
+while k <= 200:  # keeps looping while k is 200 or less
+    k = 2 * k  # doubles the value of k
+    print(k)

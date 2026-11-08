@@ -4,12 +4,10 @@ fruit = {"apple", "orange", "tomato"}
 vegetables = {"leek", "tomato", "potato"}
 
 # What do you think will be printed here?
-
 both = fruit.intersection(vegetables)
 print(both)
 
 # Why does the following code diplay five items?
-
 food = fruit.union(vegetables)
 print(food)
 
